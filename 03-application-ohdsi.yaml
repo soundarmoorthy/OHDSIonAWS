@@ -1620,7 +1620,7 @@ Resources:
             mkdir -p CommonDataModel/Redshift/
             cp CDM5.3.0_DDL_Redshift_optimized.sql ./CommonDataModel/Redshift/OMOP.sql
           else
-            git clone -b v${OMOPv} https://github.com/OHDSI/CommonDataModel
+            git clone -b v${OMOPv} https://github.com/soundarmoorthy/CommonDataModel
           fi
           
           sudo systemctl start awslogsd

@@ -762,7 +762,7 @@ Resources:
         AtlasSecurity: !Ref AtlasSecurity
         ExampleStudies: !Ref ExampleStudies
         UserList: !Ref 'RStudioUserList'
-      TemplateURL: https://s3.amazonaws.com/ohdsi-rstudio/03-application-ohdsi.yaml
+      TemplateURL: https://raw.githubusercontent.com/soundarmoorthy/OHDSIonAWS/master/03-application-ohdsi.yaml
   route53:
     Condition: DeployRoute53
     DependsOn: ohdsielasticbeanstalk
